@@ -103,7 +103,7 @@ namespace SempreEmForma
     string Nome;
     int Peso;
     double Altura;
-    //Nome:Luan
+    
     Console.WriteLine("Olá!\nPor favor insira as informações a seguir:");
       
     try{
@@ -131,6 +131,7 @@ namespace SempreEmForma
         Console.WriteLine(pessoaA.getNome() + ", o valor do seu IMC é:{0}", + pessoaA.calcularIMC()); 
         Console.WriteLine("O IMC está: {0}", pessoaA.TabelaIMC());
             
+        // transformar em um metodo na classe fora do main
         Console.WriteLine("\nRecomendações:");
         
         if(pessoaA.calcularIMC() < 18.5){
